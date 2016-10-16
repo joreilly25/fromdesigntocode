@@ -8,13 +8,16 @@ main {
 
 header {
 	position: fixed;
-	height: 35px;
+	height: 40px;
 	background-color: #eaeaea;
 	width: 100%;
 	padding-bottom: 10px;
 }
 
 h2	{
+	display: inline;
+	vertical-align: middle;
+	font-family: "Arial", Georgia, Sans-Serif;
 	float: left;
 	padding-left: 30px;
 }
@@ -27,15 +30,25 @@ li {
 	display: inline-block;
 }
 
+li a {
+	font-family: "Arial", Georgia, Sans-Serif;
+	text-decoration: none;
+	color: #551A8B;
+	font-size: 18px;
+	padding-right: 20px;
+}
+
 input {
 	font-size: 18px;
 	margin-top: 100px;
 	border-radius: 5px;
-	width: 300px;
+	width: 500px;
 	height: 30px;
 	border: 1px #eaeaea solid;
 	border-radius: 5px;
+	text-indent: 10px;
 }
+
 
 img {
 	max-width: 30px;
@@ -50,5 +63,23 @@ img {
 }
 
 .jobtitle {
+	font-weight: bold;
+	text-decoration: none;
 	color: blue;
+}
+
+.resultsnav a {
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	float: left;
+	font-size: 18px;
+	padding: 5px 20px;
+	border: 1px #eaeaea solid;
+	border-radius: 5px;
+}
+
+.results {
+	padding-top: 30px;
+	clear: left;
 }
